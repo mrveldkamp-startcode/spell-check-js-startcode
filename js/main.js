@@ -39,8 +39,12 @@ function checkAliceBinary() {
   console.log("Check Alice Binary");
 }
 
-
-
 // NOTE: Remember that the dictionary is all lowercase words
 // So when checking if a word is in the dictionary, convert the word to lowercase
 // Example: let index = linearSearch(dictionary, word.toLowerCase())
+
+// NOTE: Timing
+// let startTime = performance.now();
+// doSomething...
+// let endTime = performance.now();
+// let elapsedTime = endTime - startTime;
